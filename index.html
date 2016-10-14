@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="css/reset.min.css"/>
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <script>
+        //REM适配
+        ~(function(desW){
+            var winW = document.documentElement.clientWidth;
+            if (winW >640) {
+                winW = 640 + 'px';}
+            var n = winW/desW;
+            document.documentElement.style.fontSize = n*100+"px";
+        })(640);
+
+    </script>
+</head>
+<body>
+<div class="main">
+    <div class="music">
+        <audio src="audio/w3cd.mp3" loop preload="none" id="audioMusic"></audio>
+        <!--<audio src="audio/w3vcd.mp3" loop preload="none" id="audioMusic"></audio>-->
+    </div>
+    <div class="arrow"></div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide page1" >
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+
+            </div>
+            <div class="swiper-slide page2" >
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="swiper-slide page3" >
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="swiper-slide page4">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="swiper-slide page5" >
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
+<script src="js/swiper.min.js"></script>
+<script src="js/index.js"></script>
